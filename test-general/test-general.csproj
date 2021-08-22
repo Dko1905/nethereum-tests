@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>test_general</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Accounts" Version="4.0.5" />
+    <PackageReference Include="Nethereum.Signer" Version="4.0.5" />
+    <PackageReference Include="Nethereum.Web3" Version="4.0.5" />
+  </ItemGroup>
+
+</Project>
